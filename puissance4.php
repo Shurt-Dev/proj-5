@@ -13,49 +13,7 @@
   </head>
   <body class="center">
     <div class="ok">
-      <div class="navbar-fixed navbar-fixed-zindex">
-        <ul id="dropdown-presentation" class="dropdown-content">
-          <li><a href="index.html#Aleksi">Aleksi</a></li>
-          <li class="divider"></li>
-          <li><a href="index.html#Shurturgal">Alexandre</a></li>
-        </ul>
-        <ul id="dropdown-Projets" class="dropdown-content">
-          <li><a href="cpluscmoins.html">It's more, it's less</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Connect4</a></li>
-          <li class="divider"></li>
-          <li><a href="monsite.html">Website</a></li>
-        </ul>
-        <ul id="dropdown-Projets-tel" class="dropdown-content">
-          <li><a href="cpluscmoins.html">It's more, it's less</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Connect4</a></li>
-          <li class="divider"></li>
-          <li><a href="monsite.html">Website</a></li>
-        </ul>
-        <nav >
-          <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo center">Our Project- Connect4</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li class="divider-horizontal">.</li>
-              <li><a href="index.html#presentation">Presentation</a></li>
-              <li class="divider-horizontal">.</li>
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-Projets">Projets<i class="material-icons right">arrow_drop_down</i></a></li>
-              <li class="divider-horizontal">.</li>
-              <li><a href="#modal1-bouton">Contact us</a></li>
-            </ul>
-          </div>
-        </nav>
-        <ul class="sidenav" id="mobile-demo">
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown-Projets-tel">Projets<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="divider"></li>
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown-presentation">Presentation<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="divider"></li>
-          <li><a href="#modal1-bouton">Contact us</a></li>
-          <li class="divider"></li>
-        </ul>
-      </div>
+      <?php require_once('navbar.php') ?>
       <div class="row">
         <div class="col s12 m8 offset-m2 l6 offset-l3">
           <h1 class="color-white">Connect4!</h1>

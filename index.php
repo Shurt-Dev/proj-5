@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/style.css">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta  charset="utf-8"/>
-    <title>Our projects</title>
-    <meta name="description"  content="The part of the code that asks the player for difficulty">
-  </head>
+  <?php require_once('head.php') ?>
   <body class="center ">
-
     <div class="ok">
       <?php
         require_once('navbar.php');
@@ -26,30 +14,11 @@
         </div>
       </div>
 
-      <div class="parallax-container">
-        <div class="parallax"><img src="image/plus_moins.jpg" alt="Our Projects: images plus-moins parallax"></div>
-      </div>
-      <div class="section">
-        <div class="row caontainer">
-          <div class="col s12 m10 l8 offset-l2 offset-m1 hoverable white" id="c+c-">
-            <h2 class="header flow-text center-align">Projects- It's more, it's less:</h2>
-            <div class="card horizontal">
-              <div class="card-image margin">
-                <img src="image/cpluscmoins.jpg" alt="Our Projects: images plus-moins">
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <p>The first project is to create a "that's more that's less" in python. </p>
-                  </div>
-                  <div class="card-action">
-                    <a href="cpluscmoins.html" rel="nofollow">It's more, it's less</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="parallax-container">
+      <?php
+      require_once('presentationprojet.php');
+      ?>
+
+      <!--<div class="parallax-container">
         <div class="parallax"><img src="image/puis4featmichelange.jpg" alt="Our Projects: images content4 parallax"></div>
       </div>
       <div class="section">
@@ -94,7 +63,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <div class="center-align">
         <a id="modal1-bouton" class="waves-effect waves-light btn modal-trigger center pulse" href="#modal1">Contact us</a>
       </div>
