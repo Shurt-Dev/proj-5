@@ -10,7 +10,8 @@ $sql = "
 $pre = $pdo->prepare($sql);
 $pre->execute();
 $data = $pre->fetchAll(PDO::FETCH_ASSOC);
-foreach($data as $images){ ?>
+foreach($data as $images){
+  if ($data['COUNT(*)'] != 0) { ?>
   <?php
     if $data['COUNT(*)']
       if (strpos($images['pathFile'],"parallax") != false) { ?>
