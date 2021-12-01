@@ -5,7 +5,7 @@
       <?php require_once('navbar.php') ?>
       <div class="row">
         <?php require_once('carousel.php') ?>
-        <div class="col s12 m8 offset-m2 l8 offset-l2 hoverable red darken-3">
+        <!-- <div class="col s12 m8 offset-m2 l8 offset-l2 hoverable red darken-3">
           <div class="card">
             <p class="texte-carousel1">This is the game at the start of each session. The point represent an empty emplacement and the vertical bar is here to help visualize column. Each column is numerated from 1 to 7.</p>
             <p class="texte-carousel2">An example mid-game, where the program ask the player 2 where he want to put his token(chip).</p>
@@ -16,7 +16,7 @@
             <hr>
             <p>We made this game of Connect 4 as our second project in python. The image are from Alexander's game, but the visuals rendering are pretty similar to Aleksi's game. The goal is simple, align four token of your color verticaly, horizontally, or diagonally. To chose in which column you want your token to be, you just have to enter the correspondant number when you're prompt to. The winner is announced automatically by the program, and it can be Player 1, Player 2 or the computer(in case of a draw). Some colors were added to simplify gameplay and making the game more enjoyable</p>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="center-align">
         <a id="modal1-bouton" class="waves-effect waves-light btn modal-trigger center pulse" href="#modal1">Contact us</a>
