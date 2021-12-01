@@ -12,25 +12,25 @@ $('.carousel.carousel-slider').carousel({
   noWrap: true,
   onCycleTo:function(el){
     if($(el).attr('href') == "#one!"){
-      $(".texte-carousel1").css("display","block");
-      $(".texte-carousel2").css("display","none");
-      $(".texte-carousel3").css("display","none");
-      $(".texte-carousel4").css("display","none");
+      $(".one").css("display","block");
+      $(".two").css("display","none");
+      $(".three").css("display","none");
+      $(".four").css("display","none");
     }else if($(el).attr('href') == "#two!"){
-      $(".texte-carousel1").css("display","none");
-      $(".texte-carousel2").css("display","block");
-      $(".texte-carousel3").css("display","none");
-      $(".texte-carousel4").css("display","none");
+      $(".one").css("display","none");
+      $(".two").css("display","block");
+      $(".three").css("display","none");
+      $(".four").css("display","none");
     }else if($(el).attr('href') == "#three!"){
-      $(".texte-carousel1").css("display","none");
-      $(".texte-carousel2").css("display","none");
-      $(".texte-carousel3").css("display","block");
-      $(".texte-carousel4").css("display","none");
+      $(".one").css("display","none");
+      $(".two").css("display","none");
+      $(".three").css("display","block");
+      $(".four").css("display","none");
     }else if($(el).attr('href') == "#four!"){
-      $(".texte-carousel1").css("display","none");
-      $(".texte-carousel2").css("display","none");
-      $(".texte-carousel3").css("display","none");
-      $(".texte-carousel4").css("display","block");
+      $(".one").css("display","none");
+      $(".two").css("display","none");
+      $(".three").css("display","none");
+      $(".four").css("display","block");
     }
   }
 });
